@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "starlight-docs-api"
+version = "0.1.0"
+description = "FastAPI backend for the Starlight Path Docs Project"
+authors = ["Mike Zeng <mzen@starlightpath.studio>"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "starlight_docs_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
